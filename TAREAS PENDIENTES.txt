@@ -1,0 +1,3 @@
+*hacer que funcione el formulario de suscripción
+
+*preguntar qué forma de contacto al botón de cita previa
