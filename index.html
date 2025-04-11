@@ -7,6 +7,10 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
@@ -31,10 +35,17 @@
               <li><a href="#about">NOSOTROS</a></li>
               <li><a href="#service">SERVICIOS</a></li>
               <li><a href="#price">MARCAS</a></li>
-              <li><a href="gallery.html">COLECCIONES</a></li>
-              <!-- <li><a href="#client">CLIENTES</a></li> -->
+              <li><a href="gallery.html">COLECCIONES</a>
+                    <ul class="menu-vertical">
+                      <li><a href="mujer.html">Mujer</a></li>
+                      <li><a href="hombre.html">Hombre</a></li>
+                      <li><a href="niña.html">Niña</a></li>
+                      <li><a href="niño.html">Niño</a></li>
+                    </ul>
+              </li>
               <li><a href="#footer">CONTACTO</a></li>
-              <button class="btn">CITA PREVIA</button>
+              <a class="btn" href="https://wa.me/34685351034?text=Me%20gustaría%20pedir%20una%20cita.%20Gracias!">CITA PREVIA</a>
+              <!-- <li><a href="cart.html"><i class="ri-shopping-cart-2-fill"></i></a></li> -->
             </ul>
           </nav>
           <div class="section_container header_container" id="home">
@@ -57,11 +68,13 @@
       <div class="banner_image">
         <img src="images/banner1.jpg" alt="banner"/>
       </div>
+      <a href="https://wa.me/34685351034?text=Me%20gustaría%20pedir%20una%20cita.%20Gracias!" class="whatsapp" target="_blank">
+        <i class= ri-whatsapp-line></i></a>
     </section>
 
     <section class="section_container experience_container" id="about">
-      <div class="experinece_image">
-        <img src="images/blog-2.jpg" alt="">
+      <div class="experinece_image vid">
+        <video src="images/exp.mp4" autoplay muted loop></video>
       </div>
       <div class="experience_content">
         <p class="section_subheader">Quienes somos</p>
@@ -69,10 +82,31 @@
           10 años de experiencia
         </h2>
         <p class="section_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati et ab alias ad delectus nam, voluptates officia aspernatur sapiente ipsum natus, nesciunt quidem recusandae voluptatum nisi sit error quos. Distinctio!
+<p>En Óptica Fran Visión llevamos más de 10 años dedicados a cuidar la salud visual de nuestra comunidad, combinando profesionalismo, calidez humana y tecnología de vanguardia.</p>
+
+<p>Nuestra historia comenzó con la visión de crear un espacio donde cada persona pudiera sentirse escuchada, comprendida y acompañada en su experiencia visual y auditiva. Desde entonces, hemos crecido junto a nuestros pacientes, incorporando los últimos avances tanto en optometría y estética ocular como en tecnología auditiva, sin perder nunca el trato cercano que nos caracteriza.</p> <br>
+
+<p>Nuestro equipo cuenta con amplia trayectoria, comprometidos con brindar una atención personalizada, basada en la confianza y en un profundo conocimiento del cuidado visual-auditivo.</p>
+
+<br>Nuestra filosofía se basa en tres pilares: <br>
+
+<br>Calidad profesional: Cada diagnóstico y recomendación es realizada con precisión, responsabilidad y actualización constante. <br>
+
+<br>Empatía y cercanía: Escuchamos tus necesidades y te acompañamos en todo el proceso, desde el examen  hasta la elección del producto ideal. <br>
+
+<br>Estilo y bienestar: No solo cuidamos tu visión y oídos, también cuidamos tu imagen, con una selección de monturas y lentes que se adaptan a tu estilo de vida. <br>
+
+<br>Porque ver y oir bien no es solo una necesidad, es parte de tu calidad de vida. Y en Fran Visión, tu bienestar de los dos sentidos es nuestra mayor prioridad. <br>
         </p>
         <!-- <button class="btn">Leer más</button> -->
       </div>
+    </section>
+    <section class="section_container experience_container vid_container" id="about">
+      <div class="experinece_image vid">
+        <video src="images/Vídeo 1 general web.mp4" autoplay muted loop></video>
+      </div>
+
+      
     </section>
 
     <section class="service" id="service">
@@ -84,24 +118,40 @@
         </p>
         <div class="service_grid">
           <div class="service_card">
-            <img src="images/repara.jpg" alt="service">
-            <h4>Patillas</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, modi? Rem quae vel soluta repudiandae libero maiores consequatur iusto! Assumenda.</p>
+            <img src="images/lentes.jpg" alt="service">
+            <h4>Lentes</h4>
+            <p>Te ofrecemos una exclusiva gama de lentes personalizadas, fabricadas con tecnología de vanguardia e inteligencia artificial para brindarte la mejor solución visual. <br>
+             <br> Utilizamos Freemax, un sistema que diseña lentes progresivos y monofocales a medida, garantizando máxima nitidez, comodidad y ligereza. También contamos con opciones convencionales de alta calidad mediante la tecnología Freeform. <br>
+              Combinamos innovación y experiencia para cuidar tu visión como mereces.</p>
           </div>
           <div class="service_card">
-            <img src="images/service2.jpg" alt="service">
-            <h4>Revisión</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, modi? Rem quae vel soluta repudiandae libero maiores consequatur iusto! Assumenda.</p>
+            <img src="images/gafasgafas.jpg" alt="service">
+            <h4>Gafas</h4>
+            <p>Moda y calidad para tu mirada <br>
+
+              <br>En nuestra óptica, las gafas son mucho más que corrección visual: son estilo, personalidad y tendencia. Por eso, te ofrecemos monturas actuales, cómodas y con diseño, siempre a la vanguardia de la moda. <br>
+              
+              Trabajamos con materiales de calidad y marcas reconocidas, manteniendo una excelente relación calidad-precio. Aquí encontrarás el modelo ideal, adaptado a tu estilo y a tu bolsillo.
+              
+              Ven y déjate asesorar. Ver bien y lucir mejor nunca fue tan fácil.</p>
           </div>
           <div class="service_card">
-            <img src="images/service3.jpg" alt="service">
-            <h4>Calibración</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, modi? Rem quae vel soluta repudiandae libero maiores consequatur iusto! Assumenda.</p>
+            <img src="images/optometría1.jpg" alt="service">
+            <h4>Optometría</h4>
+            <p>Contamos con tecnología de vanguardia para el diagnóstico, tratamiento y corrección de defectos refractivos y acomodativos. <br> Además, ofrecemos un servicio especializado en el diseño, cálculo, adaptación y seguimiento de lentes de contacto y lentes oftálmicas, brindando soluciones ópticas precisas y personalizadas.</p>
           </div>
           <div class="service_card" id="redonda">
-            <img src="images/service4.jpg" alt="service">
-            <h4>Dioptrías</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, modi? Rem quae vel soluta repudiandae libero maiores consequatur iusto! Assumenda.</p>
+            <img src="images/revisiones.jpg" alt="service">
+            <h4>Revisiones</h4>
+            <p>Una buena visión empieza con una revisión completa.
+              Estas son las pruebas que realizamos para cuidar tus ojos en profundidad:
+              
+              1. Refracción visual: ajustamos tu graduación y detectamos errores visuales como miopía o astigmatismo.
+              2. Tensión ocular: controlamos la presión intraocular para prevenir el glaucoma.
+              3. Topografía corneal: estudiamos la curvatura de la córnea, clave para lentes de contacto y diagnóstico de alteraciones.
+              4. Estudio de retina: exploramos el fondo del ojo para detectar posibles daños en la retina o el nervio óptico.
+              
+              Porque ver bien también es cuestión de salud.</p>
           </div>
         </div>
       </div>
@@ -164,12 +214,12 @@
 
     <section class="section-container price_container" id="price">
       <p class="section_subheader">Mejores ofertas</p>
-      <h2 class="section_header">Nuestros planes de precios</h2>
+      <h2 class="section_header">Nuestros productos</h2>
       <p class="section_description">Ofrecemos un amplia gama de modelos a precios muy asequibles
       </p>
       <div class="price_grid">
         <div class="price_card">
-          <img src="images/gafas2.jpg" alt="">
+          <img src="images/gafasrojas.jpg" alt="">
           <h4>BOSS</h4>
           <!-- <h3><sup>€</sup>80</h3> -->
           <p>Montura que se destaca por su diseño moderno pensado para todo tipo de público</p>
@@ -248,10 +298,10 @@
           <p class="section_description">
             Experimenta con nosotros los beneficios de una buena salud ocular y auditiva
           </p>
-          <div class="contact_btns">
+          <!-- <div class="contact_btns">
             <a class="btn" href="#service">Nuestros servicios</a>
             <a class="btn" href="#footer">Contacto</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -285,7 +335,7 @@
         <div class="footer_col">
           <h4>Contacto</h4>
           <ul class="footer_links">
-            <a href="tel:+34685351034"></span><i class="ri-phone-fill"></i></a>
+            <a href="tel:+34959092837"></span><i class="ri-phone-fill"></i></a>
             <a href="mailto:"><i class="ri-mail-line"></i></a>
           </ul>
         </div>
