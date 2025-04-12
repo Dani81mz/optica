@@ -397,7 +397,10 @@ button{
 }
 
 .experience_container{
-  display: grid;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 2rem;
 }
 
@@ -407,8 +410,30 @@ button{
 }
 
 .vid video{
-  width: 500px;
+  width: 400px;
   height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.vid_container h1{
+  display: inline-flex;
+  align-items: center;
+  color: var(--extra-light);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.vid_container .vision{
+  display: inline-flex;
+}
+
+.vid_container span{
+  color: var(--primary-color);
+}
+
+.vid_container .vision{
+  color: var(--primary-color);
 }
 
 
@@ -874,7 +899,8 @@ button{
   }
   
   video{
-    grid-template-columns: unset;
+    grid-template-columns: repeat(1, 1fr);
+    
   }
 
   .section_grid{
