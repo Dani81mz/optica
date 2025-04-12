@@ -479,7 +479,15 @@ button{
 
 .customisation{
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/sorda.jpg");
+    url("images/maneye.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.customisation_audio{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("images/trompetamujer.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -489,7 +497,17 @@ button{
   text-align: center;
 }
 
+.customisation_container_audio{
+  text-align: center;
+}
+
 .customisation_container :is(.section_header, .section_description){
+  max-width: 750px;
+  margin: auto;
+  color: var(--white);
+}
+
+.customisation_container_audio :is(.section_header, .section_description){
   max-width: 750px;
   margin: auto;
   color: var(--white);
