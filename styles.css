@@ -903,6 +903,14 @@ button{
     
   }
 
+  .filter_buttons{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
   .section_grid{
     grid-template-columns: repeat(2, 1fr);
   }
