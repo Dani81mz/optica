@@ -906,9 +906,10 @@ button{
   .filter_buttons{
     flex-wrap: wrap;
     display: flex;
+    
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px, 10px;
     margin-top: 10px;
   }
 
