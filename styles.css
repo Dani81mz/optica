@@ -90,7 +90,7 @@ body {
 .header {
   padding-block: 5rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/opticalcenterheader.jpeg");
+    url("images/headerprueba1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -861,7 +861,7 @@ button{
 .footer_links a{
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--extra-light);
   transition: 0.3s;
 }
 
