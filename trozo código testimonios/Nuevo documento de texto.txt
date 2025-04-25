@@ -1,0 +1,40 @@
+ <!-- <section class="section_container testimonial_container" id="client">
+      <p class="section_subheader">TESTIMONIOS DE NUESTROS CLIENTES</p>
+      <h2 class="section_header">100% Aprobados por nuestros clientes</h2>
+             Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="testimonial_card">
+                    <img src="images/testimonial-1.jpg" alt="testimonial" />
+                    <p>
+                      Antes no veía un carajo y ahora los veo todos.
+                    </p>
+                    <h4>- Sara T.</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial_card">
+                    <img src="images/testimonial-2.jpg" alt="testimonial" />
+                    <p>
+                      Estas gafas me han cambiado la vida. Ahora todo se ve mejor.
+                    </p>
+                    <h4>- Ignacio P.</h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial_card">
+                    <img src="images/testimonial-3.jpg" alt="testimonial" />
+                    <p>
+                      Me encantan las gafas de Fran Visión, son la hostia!
+                    </p>
+                    <h4>- David S.</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+    </section>  
